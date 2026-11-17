@@ -31,3 +31,15 @@ nav {
         }
     }
 }
+
+header {
+    background-color: burlywood;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h3 {
+        font-size: 4rem;
+    }
+}
